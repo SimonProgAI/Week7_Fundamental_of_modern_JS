@@ -13,6 +13,11 @@ let owner = {
     age: 72
 };
 
+let shoppingList = [
+    'bananas',
+    'Apples',
+    'Cheries',
+    'Tomatoes'
+];
 
-
-console.log(owner['firstName']);
+console.log(shoppingList.at(-1));
